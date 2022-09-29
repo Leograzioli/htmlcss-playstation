@@ -10,11 +10,31 @@ img {
 :root {
     --ms_color-black: #000000;
     --ms_color-white: #ffffff;
+    --ms_color-light-black: #1f1f1f;
+    --ms_color-light-gray: #bebcbb;
+    --ms_color-dark-blue: #161c3b;
+    --ms_color-blue: #00439c;
 }
 
 /* background color  */
 .ms_bg-black {
     background-color: var(--ms_color-black);
+}
+
+.ms_bg-light-black {
+    background-color: var(--ms_color-light-black);
+}
+
+.ms_bg-light-gray {
+    background-color: var(--ms_color-light-gray);
+}
+
+.ms_bg-dark-blue {
+    background-color: var(--ms_color-dark-blue);
+}
+
+.ms_bg-blue {
+    background-color: var(--ms_color-blue);
 }
 
 /* color */
@@ -30,7 +50,7 @@ img {
 
 /* typography */
 h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 /******* MAIN  *******/
@@ -50,9 +70,20 @@ h2 {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
-    color: var(--ms_color-white);
 }
 
 #jumbotron .card {
     background-color: none;
+}
+
+/* buy now  */
+#buy-now {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* new release  */
+#new-release {
+    color: var(--ms_color-white);
 }
