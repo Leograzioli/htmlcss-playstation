@@ -9,8 +9,9 @@ img {
 
 :root {
     --ms_color-black: #000000;
-    --ms_color-white: #ffffff;
     --ms_color-light-black: #1f1f1f;
+    --ms_color-white: #ffffff;
+    --ms_color-gray: #727272;
     --ms_color-light-gray: #bebcbb;
     --ms_color-dark-blue: #161c3b;
     --ms_color-blue: #00439c;
@@ -42,6 +43,10 @@ img {
     color: var(--ms_color-white);
 }
 
+.ms_color-gray {
+    color: var(--ms_color-gray);
+}
+
 /* margin e padding */
 
 .ms_mt-6 {
@@ -51,6 +56,26 @@ img {
 /* typography */
 h2 {
     font-size: 2.5rem;
+}
+
+/* button */
+.ms_btn {
+    border-radius: 20px;
+}
+
+/******* HEADER  *******/
+header .nav-link {
+    color: var(--ms_color-black);
+    font-weight: 600;
+}
+
+header .dropdown-toggle::after {
+    margin-left: 0.5rem;
+    color: var(--ms_color-light-gray);
+}
+
+header .ms_btn {
+    color: white;
 }
 
 /******* MAIN  *******/
