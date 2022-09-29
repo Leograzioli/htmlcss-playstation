@@ -1,0 +1,33 @@
+/******* COMMON *******/
+html {
+    font-size: 100%;
+}
+
+:root {
+    --ms_color-black: #000000;
+    --ms_color-white: #ffffff;
+}
+
+/* background color  */
+.ms_bg-black {
+    background-color: var(--ms_color-black);
+}
+
+/* color */
+.ms_color-white {
+    color: var(--ms_color-white);
+}
+
+/******* MAIN  *******/
+/* jumbotron */
+#jumbotron {
+    min-height: 600px;
+    margin-top: 80px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#jumbotron .card {
+    background-color: none;
+}
