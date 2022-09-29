@@ -3,6 +3,10 @@ html {
     font-size: 100%;
 }
 
+img {
+    width: 100%;
+}
+
 :root {
     --ms_color-black: #000000;
     --ms_color-white: #ffffff;
@@ -18,7 +22,27 @@ html {
     color: var(--ms_color-white);
 }
 
+/* margin e padding */
+
+.ms_mt-6 {
+    margin-top: 6rem;
+}
+
+/* typography */
+h2 {
+    font-size: 3rem;
+}
+
 /******* MAIN  *******/
+.ms_section {
+    padding: 2rem 0;
+}
+
+.box {
+    min-width: 100px;
+    height: 200px;
+    background-color: red;
+}
 /* jumbotron */
 #jumbotron {
     min-height: 600px;
@@ -26,6 +50,7 @@ html {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
+    color: var(--ms_color-white);
 }
 
 #jumbotron .card {
