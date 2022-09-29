@@ -1,6 +1,7 @@
 /******* COMMON *******/
 html {
     font-size: 100%;
+    scroll-padding-top: 80px;
 }
 
 img {
@@ -91,6 +92,7 @@ header .ms_btn {
 }
 
 /******* MAIN  *******/
+
 .ms_section {
     padding: 2rem 0;
 }
