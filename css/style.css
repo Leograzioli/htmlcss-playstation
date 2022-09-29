@@ -13,11 +13,21 @@ img {
     --ms_color-white: #ffffff;
     --ms_color-gray: #727272;
     --ms_color-light-gray: #bebcbb;
+    --ms_color-lighter-gray: #d9dadc;
     --ms_color-dark-blue: #161c3b;
     --ms_color-blue: #00439c;
+    --ms_color-red: #cd3d0f;
 }
 
 /* background color  */
+
+.ms_bg-lighter-gray {
+    background-color: var(--ms_color-lighter-gray);
+}
+.ms_bg-red {
+    background-color: var(--ms_color-red);
+}
+
 .ms_bg-black {
     background-color: var(--ms_color-black);
 }
@@ -47,11 +57,10 @@ img {
     color: var(--ms_color-gray);
 }
 
-/* margin e padding */
-
-.ms_mt-6 {
-    margin-top: 6rem;
+.ms_color-black {
+    color: var(--ms_color-black);
 }
+
 
 /* typography */
 h2 {
@@ -60,7 +69,10 @@ h2 {
 
 /* button */
 .ms_btn {
+    display: inline-block;
     border-radius: 20px;
+    padding: 0.5rem 1rem;
+
 }
 
 /******* HEADER  *******/
@@ -88,6 +100,7 @@ header .ms_btn {
     height: 200px;
     background-color: red;
 }
+
 /* jumbotron */
 #jumbotron {
     min-height: 600px;
@@ -97,8 +110,26 @@ header .ms_btn {
     background-position: center;
 }
 
-#jumbotron .card {
-    background-color: none;
+#jumbotron .ms_btn {
+    background-color: var(--ms_color-red);
+    color: var(--ms_color-white);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* game section  */
+#game .col img {
+    border-radius: 10px;
+    padding: 0.1rem;
+}
+
+#game .col a:focus img {
+    outline: 2px solid var(--ms_color-blue);
+}
+
+/* play 5 section */
+#play5 .col a:focus img {
+    border-bottom: 2px solid var(--ms_color-blue);
 }
 
 /* buy now  */
@@ -111,4 +142,25 @@ header .ms_btn {
 /* new release  */
 #new-release {
     color: var(--ms_color-white);
+}
+
+#new-release .ms_card-img img {
+    border-radius: 15px;
+}
+
+/******* FOOTER  *******/
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    line-height: 2rem;
+}
+
+.ms_global img {
+    width: 20px;
+}
+
+.ms_card img {
+    width: 150px;
 }
