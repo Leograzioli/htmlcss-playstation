@@ -9,28 +9,18 @@ img {
 }
 
 :root {
-    --ms_color-black: #000000;
     --ms_color-light-black: #1f1f1f;
-    --ms_color-white: #ffffff;
     --ms_color-gray: #727272;
     --ms_color-light-gray: #bebcbb;
     --ms_color-lighter-gray: #d9dadc;
     --ms_color-dark-blue: #161c3b;
-    --ms_color-blue: #00439c;
     --ms_color-red: #cd3d0f;
 }
 
 /* background color  */
 
-.ms_bg-lighter-gray {
-    background-color: var(--ms_color-lighter-gray);
-}
 .ms_bg-red {
     background-color: var(--ms_color-red);
-}
-
-.ms_bg-black {
-    background-color: var(--ms_color-black);
 }
 
 .ms_bg-light-black {
@@ -41,27 +31,13 @@ img {
     background-color: var(--ms_color-light-gray);
 }
 
+.ms_bg-lighter-gray {
+    background-color: var(--ms_color-lighter-gray);
+}
+
 .ms_bg-dark-blue {
     background-color: var(--ms_color-dark-blue);
 }
-
-.ms_bg-blue {
-    background-color: var(--ms_color-blue);
-}
-
-/* color */
-.ms_color-white {
-    color: var(--ms_color-white);
-}
-
-.ms_color-gray {
-    color: var(--ms_color-gray);
-}
-
-.ms_color-black {
-    color: var(--ms_color-black);
-}
-
 
 /* typography */
 h2 {
