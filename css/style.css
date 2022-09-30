@@ -1,7 +1,7 @@
 /******* COMMON *******/
 html {
     font-size: 100%;
-    scroll-padding-top: 80px;
+    scroll-padding-top: 110px;
 }
 
 img {
@@ -77,6 +77,11 @@ h2 {
 }
 
 /******* HEADER  *******/
+header .ms_logo img {
+    width: 100px;
+    padding: 0.5rem;
+}
+
 header .nav-link {
     color: var(--ms_color-black);
     font-weight: 600;
@@ -106,7 +111,7 @@ header .ms_btn {
 /* jumbotron */
 #jumbotron {
     min-height: 600px;
-    margin-top: 80px;
+    margin-top: 110px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
