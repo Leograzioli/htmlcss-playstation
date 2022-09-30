@@ -86,7 +86,7 @@ header .ms_btn {
 
 /* jumbotron */
 #jumbotron {
-    min-height: 600px;
+    min-height: 650px;
     margin-top: 110px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
