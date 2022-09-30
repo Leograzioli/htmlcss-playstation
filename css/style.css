@@ -78,12 +78,6 @@ header .ms_btn {
     padding: 2rem 0;
 }
 
-.box {
-    min-width: 100px;
-    height: 200px;
-    background-color: red;
-}
-
 /* jumbotron */
 #jumbotron {
     min-height: 650px;
