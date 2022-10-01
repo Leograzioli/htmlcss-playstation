@@ -194,6 +194,14 @@ header .ms_btn {
     border-bottom: 2px solid blue;
 }
 
+#play5 .ms_opacity img {
+    opacity: 0.5;
+}
+
+#play5 .ms_opacity img:hover {
+    opacity: 1;
+}
+
 /* buy now  */
 #buy-now {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
