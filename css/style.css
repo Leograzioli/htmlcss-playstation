@@ -24,10 +24,6 @@ a {
 
 /* background color  */
 
-.ms_bg-red {
-    background-color: var(--ms_color-red);
-}
-
 .ms_bg-light-black {
     background-color: var(--ms_color-light-black);
 }
@@ -52,8 +48,12 @@ h2 {
 /* button */
 .ms_btn {
     display: inline-block;
-    border-radius: 20px;
     padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.ms_btn:hover {
+    box-shadow: inset 0 0 0 2px white;
 }
 
 /******* HEADER  *******/
@@ -68,7 +68,7 @@ header .ms_logo img {
     line-height: 80px;
 }
 
-.ms_header-bottom i {
+.ms_icon i {
     border: 1px solid gray;
     padding: 0.4rem 0.8rem;
     border-radius: 5px;
@@ -79,13 +79,13 @@ header .ms_logo img {
     align-items: center;
     color: black;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 0;
 }
 
 .ms_header-bottom ul li {
     display: inline-block;
-    margin-right: 1rem;
+    margin-left: 0.2rem;
 }
 
 .ms_header-bottom ul li:hover .ms_chevron {
@@ -173,6 +173,7 @@ header .ms_btn {
 
 #jumbotron .ms_btn {
     background-color: var(--ms_color-red);
+    border: 2px solid var(--ms_color-red);
     color: var(--ms_color-white);
     text-decoration: none;
     font-weight: 600;
@@ -185,12 +186,16 @@ header .ms_btn {
 }
 
 #game .col a:focus img {
-    outline: 2px solid var(--ms_color-blue);
+    outline: 2px solid blue;
+}
+
+#game .col:hover {
+    transform:translateY(-20px)
 }
 
 /* play 5 section */
-#play5 .col a:focus img {
-    border-bottom: 2px solid var(--ms_color-blue);
+#play5 .active {
+    border-bottom: 2px solid blue;
 }
 
 /* buy now  */
@@ -200,6 +205,14 @@ header .ms_btn {
     background-position: center;
 }
 
+#buy-now .ms_btn {
+    background-color: var(--ms_color-red);
+    border: 2px solid var(--ms_color-red);
+    color: var(--ms_color-white);
+    text-decoration: none;
+    font-weight: 600;
+}
+
 /* new release  */
 #new-release {
     color: var(--ms_color-white);
@@ -207,6 +220,21 @@ header .ms_btn {
 
 #new-release .ms_card-img img {
     border-radius: 15px;
+}
+
+/* ps plus  */
+#play-plus .ms_btn {
+    background-color: var(--ms_color-lighter-gray);
+    border: 2px solid var(--ms_color-lighter-gray);
+}
+
+/* ps now  */
+#play-now .ms_btn {
+    border: 2px solid white;
+}
+
+#play-now .ms_btn:hover {
+    box-shadow: inset 0 0 0 2px black;
 }
 
 /******* FOOTER  *******/
