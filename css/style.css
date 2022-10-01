@@ -88,6 +88,14 @@ header .ms_logo img {
     margin-right: 1.5rem;
 }
 
+.ms_header-bottom ul li:hover .ms_chevron {
+    display: none;
+}
+
+.ms_header-bottom ul li:hover .ms_chevron-hv {
+    display: block;
+}
+
 .ms_header-bottom li img {
     margin-left: 0.5rem;
 }
