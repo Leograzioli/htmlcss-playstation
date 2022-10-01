@@ -23,75 +23,87 @@
 
         <!-- header start -->
         <header class="fixed-top">
-            <div class="bg-black text-end ">
-                <div class="ms_logo">
-                    <img src="img/sony_logo.svg" alt="">
+            <div class="fluid-container">
+
+                <!-- header top  -->
+                <div class="bg-black text-end ">
+                    <div class="ms_logo">
+                        <img src="img/sony_logo.svg" alt="">
+                    </div>
                 </div>
-            </div>
 
-            <nav class="navbar navbar-expand-lg bg-white">
-                <div class="container-fluid ">
-
-                    <!-- logo  -->
-                    <a class="navbar-brand" href="#">
-                        <img src="img/play_logo.svg" alt=" logo playstation">
+                <!-- header bottom  -->
+                <div class="ms_header-bottom bg-white align-items-center d-flex justify-content-between" >
+                   
+                   <!-- logo  -->
+                    <a href="#">
+                        <img class="ps-3" src="img/play_logo.svg" alt=" logo playstation">
                     </a>
 
-                    <!-- menu for mobile and tablet  -->
-                    <button class="navbar-toggler" type="button">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <div class="container-fluid">
+                        <div class="row ">
+                
+                            <!-- menu for mobile and tablet  -->
+                            <div class="col-12 d-lg-none">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
 
-                    <!-- menu for large screens  -->
-                    <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+                            <!-- menu for large screens  -->
+                            <div class="col-12 d-flex ">
+                                <ul class="d-none d-lg-flex">
+                                    <li>
+                                        <a href="#">Supporto</a>
+                                        <img class="ms_chevron" src="img/chevron-down-solid.svg" alt="">
+                                        <img class="ms_chevron-hv" src="img/chevron-down-solid-hover.svg" alt="">
+                                    </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link dropdown-toggle" href="#game">Giochi</a>
-                            </li>
+                                    <li>
+                                        <a href="#">Supporto</a>
+                                        <img class="ms_chevron" src="img/chevron-down-solid.svg" alt="">
+                                        <img class="ms_chevron-hv" src="img/chevron-down-solid-hover.svg" alt="">
+                                    </li>
+                                    <li>
+                                        <a href="#">Supporto</a>
+                                        <img class="ms_chevron" src="img/chevron-down-solid.svg" alt="">
+                                        <img class="ms_chevron-hv" src="img/chevron-down-solid-hover.svg" alt="">
+                                    </li>
+                                    <li>
+                                        <a href="#">Supporto</a>
+                                        <img class="ms_chevron" src="img/chevron-down-solid.svg" alt="">
+                                        <img class="ms_chevron-hv" src="img/chevron-down-solid-hover.svg" alt="">
+                                    </li>
+                                    <li>
+                                        <a href="#">Supporto</a>
+                                        <img class="ms_chevron" src="img/chevron-down-solid.svg" alt="">
+                                        <img class="ms_chevron-hv" src="img/chevron-down-solid-hover.svg" alt="">
+                                    </li>
+                                    <li>
+                                        <a href="#">Supporto</a>
+                                        <img class="ms_chevron" src="img/chevron-down-solid.svg" alt="">
+                                        <img class="ms_chevron-hv" src="img/chevron-down-solid-hover.svg" alt="">
+                                    </li>
+                                </ul>
 
-                            <li class="nav-item">
-                                <a class="nav-link dropdown-toggle" href="#play5">Hardware</a>
-                            </li>
-                            
-                            <li class="nav-item ">
-                                <a class="nav-link dropdown-toggle" href="#">Servizi</a>
-                            </li>
-                            
-                            <li class="nav-item">
-                                <a class="nav-link dropdown-toggle" href="#">Novita</a>
-                            </li>
+                                <ul class="d-none d-lg-flex ms-auto">
+                                    <li>
+                                        <a href="#">Supporto</a>
+                                        <img class="ms_chevron" src="img/chevron-down-solid.svg" alt="">
+                                        <img class="ms_chevron-hv" src="img/chevron-down-solid-hover.svg" alt="">
+                                    </li>
+                                    <li>
+                                        <a href="#" class="ms_btn bg-black text-white">Accedi</a>
+                                    </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link dropdown-toggle" href="#">Fai acquisti</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link dropdown-toggle" href="#">Supporto</a>
-                            </li>
-                        </ul>
-
-                        <div class="d-flex">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                                <li class="nav-item">
-                                    <a class="nav-link dropdown-toggle" href="#">My PlayStation</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link ms_btn ms_bg-light-black px-3" href="#"> Accedi</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        <i class="fa-solid fa-magnifying-glass ms-1"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                                    <li>
+                                        <img class="ms_lens"src="img/lens.svg" alt="">
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </nav>
+            </div>
         </header>
 
         <!-- main start -->
@@ -105,7 +117,9 @@
 
                             <img class="w-75" src="img/returnal-hero-banner-logo.png" alt="">
                             <h2 class="my-4">Rompi il cerchio</h2>
-                            <p class="fw-bold mb-3">Rialzari dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
+                            <p class="fw-bold mb-3">Rialzari dopo ogni sconfitta e affronta una nuova sfida con ogni
+                                rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su
+                                PS5.</p>
                             <a href="#" class="ms_btn">Acquista ora</a>
 
                         </div>
@@ -164,15 +178,17 @@
                     <div class="row align-items-center mb-4">
                         <div class="col-12 col-md-6">
                             <h2 class="pb-4">Console PLayStation 5</h2>
-                            <h5 class="pb-3 text-secondary">Sperimenta la nuova generazione di incredibili giochi PlayStation.</h5>
-                            <a href="#" class="ms_btn bg-primary text-white text-decoration-none"> Maggiori informazioni</a>
+                            <h5 class="pb-3 text-secondary">Sperimenta la nuova generazione di incredibili giochi
+                                PlayStation.</h5>
+                            <a href="#" class="ms_btn bg-primary text-white text-decoration-none"> Maggiori
+                                informazioni</a>
                         </div>
 
                         <div class="col-12 col-md-6 mt-4">
                             <img src="img/playstation-5-thumb.png" alt="">
                         </div>
                     </div>
-                    
+
                     <div class="row gy-2 row-cols-3 row-cols-md-5 ">
                         <div class="col">
                             <a href="#">
@@ -210,7 +226,9 @@
                         <div class="col-12 col-lg-4">
                             <img class="w-50 pt-5" src="img/it-takes-two-logo.png" alt="">
                             <h2 class="my-4">Un'avventura cooperativa selvaggia ti attende</h2>
-                            <p class="mb-4 fw-semibold">Trova un amico e partite insieme per l'avventura piu folle delle vostre vite in It Takes Two. un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere</p>
+                            <p class="mb-4 fw-semibold">Trova un amico e partite insieme per l'avventura piu folle delle
+                                vostre vite in It Takes Two. un gioco d'avventura cooperativa a piattaforme che
+                                stravolge il suo genere</p>
                             <a href="#" class="ms_btn ms_bg-red text-white">Acquista ora</a>
                         </div>
                     </div>
@@ -314,7 +332,7 @@
                         <!-- col -->
                         <div class="col">
                             <div class="ms_card">
->
+                                >
                                 <div class="ms_card-img">
                                     <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
                                 </div>
@@ -403,11 +421,12 @@
                 <div class="container">
                     <div class="text-center">
                         <h2 class="py-4">Esplora PlayStation 4</h2>
-                        <h5 class="pb-3 text-secondary">Giochi incredibili e intrattenimento senza fine. <br>Non c'e mai stato un momento migliore per fiocare silla tua PS4.</h5>
+                        <h5 class="pb-3 text-secondary">Giochi incredibili e intrattenimento senza fine. <br>Non c'e mai
+                            stato un momento migliore per fiocare silla tua PS4.</h5>
                     </div>
 
                     <div class="row g-4 row-cols-1 row-cols-md-3 pb-5">
-                        
+
                         <!-- ps4 card  -->
                         <div class="col">
                             <div class="ms_card">
@@ -418,8 +437,10 @@
 
                                 <div class="ms_card-txt">
                                     <h2 class="pb-3">PlayStation $</h2>
-                                    <h5 class="text-secondary pb-4">Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</h5>
-                                    <a href="#" class="ms_btn bg-primary text-white text-decoration-none">Scopri di piu</a>
+                                    <h5 class="text-secondary pb-4">Giochi incredibili live su PS4, con 1 TB di spazio
+                                        di archiviazione.</h5>
+                                    <a href="#" class="ms_btn bg-primary text-white text-decoration-none">Scopri di
+                                        piu</a>
                                 </div>
                             </div>
                         </div>
@@ -431,11 +452,13 @@
                                 <div class="ms_card-img">
                                     <img src="img/double11-202010-tw-psvr.jpg" alt="">
                                 </div>
-                                
+
                                 <div class="ms_card-txt">
                                     <h2 class="pb-3">PlayStation VR</h2>
-                                    <h5 class="text-secondary pb-4">Oltre 500 titoli ed esperienze di gioco. Scopri tutti.</h5>
-                                    <a href="#" class="ms_btn bg-primary text-white text-decoration-none">Scopri di piu</a>
+                                    <h5 class="text-secondary pb-4">Oltre 500 titoli ed esperienze di gioco. Scopri
+                                        tutti.</h5>
+                                    <a href="#" class="ms_btn bg-primary text-white text-decoration-none">Scopri di
+                                        piu</a>
                                 </div>
                             </div>
                         </div>
@@ -450,8 +473,10 @@
 
                                 <div class="ms_card-txt">
                                     <h2 class="pb-3">Acessori</h2>
-                                    <h5 class="text-secondary pb-4">Migliora la tua esperienza PS4 con una gamma di accessori ufficiali,</h5>
-                                    <a href="#" class="ms_btn bg-primary text-white text-decoration-none">Scopri di piu</a>
+                                    <h5 class="text-secondary pb-4">Migliora la tua esperienza PS4 con una gamma di
+                                        accessori ufficiali,</h5>
+                                    <a href="#" class="ms_btn bg-primary text-white text-decoration-none">Scopri di
+                                        piu</a>
                                 </div>
                             </div>
                         </div>
@@ -473,10 +498,12 @@
                                 </div>
 
                                 <div class="ms_card-txt mb-4">
-                                    <p class="fw-semibold">Migliorala tua esperienza PlayStation con l'accesso a multigiocatore online. giochi mensili, sconti esclusivi e altro ancora.</p>
+                                    <p class="fw-semibold">Migliorala tua esperienza PlayStation con l'accesso a
+                                        multigiocatore online. giochi mensili, sconti esclusivi e altro ancora.</p>
                                 </div>
 
-                                <a  class="ms_btn ms_bg-lighter-gray primary text-decoration-none fw-bold" href="#">Esplora Playstation plus</a>
+                                <a class="ms_btn ms_bg-lighter-gray primary text-decoration-none fw-bold"
+                                    href="#">Esplora Playstation plus</a>
                             </div>
                         </div>
 
@@ -494,8 +521,9 @@
             <section id="discount" class="ms_section">
                 <div class="container text-center py-5">
                     <h2 class="my-4">Nuovi sconti sul PlayStation Store</h2>
-                    <h5 class="mb-5 text-secondary">Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e PS VR, tutti in un unico posto. </h5>
-                
+                    <h5 class="mb-5 text-secondary">Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e
+                        PS VR, tutti in un unico posto. </h5>
+
                     <div class="row g-4 row-cols-1 row-cols-md-3">
                         <div class="col">
                             <img src="img/playstation-store-games-under-20-spotlight.jpg" alt="">
@@ -516,8 +544,10 @@
                     <div class="row align-items-center">
                         <div class="col-12 py-5 col-md-6">
                             <img class="w-75 mb-4" src="img/ps-now-logo-two-column.png" alt="">
-                            <p class="mb-5">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o Pc Windows, con nuovi titoli aggiunti ogni mese.</p>
-                            <a class="ms_btn bg-white text-black text-decoration-none fw-semibold" href="#">Esplora PlayStattion Now</a>
+                            <p class="mb-5">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi
+                                per PS4, PS3 e PS2 su PS4 o Pc Windows, con nuovi titoli aggiunti ogni mese.</p>
+                            <a class="ms_btn bg-white text-black text-decoration-none fw-semibold" href="#">Esplora
+                                PlayStattion Now</a>
                         </div>
 
                         <div class="d-none d-md-block col-md-6">
@@ -549,14 +579,13 @@
                                 <div class="col-6 col-sm-3">
                                     <img src="img/instagram.jpg" alt="">
                                 </div>
-                                
+
                                 <div class="col-6 col-sm-3">
                                     <img src="img/youtube.png" alt="">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </section>
         </main>
@@ -570,12 +599,12 @@
 
                     <!-- col  -->
                     <div class="col-12 col-lg-6">
-                        
+
                         <!-- logo ps -->
                         <img class="w-25 py-5" src="img//ps-footer.svg" alt="">
 
                         <div class="ms_global d-flex align-items-center mb-5">
-                            <img  src="img/language-globe.svg" alt="">
+                            <img src="img/language-globe.svg" alt="">
                             <span class="ms-3">Country / Region: Italy</span>
                         </div>
                     </div>
@@ -671,17 +700,22 @@
                                 </a>
                             </li>
                         </ul>
-                    </div>  
+                    </div>
 
                     <!-- col  -->
                     <div class="col-12 col-lg-6 mt-5">
                         <div class="ms_card">
                             <img src="img/sie-logo.svg" alt="">
-                            <p class="pt-2 fw-semibold">Website &copy;2021 Sony Interactive Entretainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi regristrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprierati. Tutti i diritti riservati. <a href="#" class="text-white">Maggiori info</a></p>
+                            <p class="pt-2 fw-semibold">Website &copy;2021 Sony Interactive Entretainment Europe
+                                Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento,
+                                marchi regristrati, grafica e immagini associati sono marchi registrati e/o materiale
+                                protetto da copyright dei rispettivi proprierati. Tutti i diritti riservati. <a href="#"
+                                    class="text-white text-decoration-underline">Maggiori info</a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
     </body>
+
 </html>

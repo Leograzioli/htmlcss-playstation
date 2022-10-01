@@ -1,11 +1,16 @@
 /******* COMMON *******/
 html {
     font-size: 100%;
-    scroll-padding-top: 110px;
+    scroll-padding-top: 105px;
 }
 
 img {
     max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
 :root {
@@ -49,7 +54,6 @@ h2 {
     display: inline-block;
     border-radius: 20px;
     padding: 0.5rem 1rem;
-
 }
 
 /******* HEADER  *******/
@@ -58,18 +62,52 @@ header .ms_logo img {
     padding: 0.5rem;
 }
 
-header .nav-link {
-    color: var(--ms_color-black);
+.ms_header-bottom {
+    width: 100%;
+    height: 80px;
+}
+
+.ms_header-bottom i {
+    border: 1px solid gray;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ms_header-bottom ul {
+    align-items: center;
+    list-style-type: none;
+    color: black;
     font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0;
 }
 
-header .dropdown-toggle::after {
+.ms_header-bottom ul li {
+    display: flex;
+    margin-right: 1.5rem;
+}
+
+.ms_header-bottom li img {
     margin-left: 0.5rem;
-    color: var(--ms_color-light-gray);
 }
 
-header .ms_btn {
-    color: white;
+.ms_chevron {
+    width: 10px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.ms_chevron-hv {
+    display: none;
+    width: 10px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+.ms_lens {
+    width: 30px;
 }
 
 /******* MAIN  *******/
