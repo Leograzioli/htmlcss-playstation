@@ -100,10 +100,6 @@ header .ms_logo img {
     display: block;
 }
 
-.ms_header-bottom li img {
-    margin-left: 0.5rem;
-}
-
 .ms_chevron {
     width: 10px;
     margin-right: 0.5rem;
